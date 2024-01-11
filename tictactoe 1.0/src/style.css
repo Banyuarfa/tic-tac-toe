@@ -1,0 +1,24 @@
+h1 {
+  text-align: center;
+}
+main {
+  background-color: grey;
+  width: 150px;
+  height: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: auto;
+}
+section {
+  border: solid 1px black;
+  width: 3em;
+  height: 3em;
+  color: aliceblue;
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
